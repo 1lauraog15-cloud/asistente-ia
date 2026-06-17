@@ -1,4 +1,4 @@
-# Asistente IA
+# IA ASSISTANT
 
 A command-line assistant that uses the OpenAI API to perform four tasks: text translation, image downloading, problem-solving from images, and audio transcription.
 
