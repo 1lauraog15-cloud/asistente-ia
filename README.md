@@ -1,20 +1,20 @@
 # Asistente IA
 
-Asistente de línea de comandos que usa la API de OpenAI para realizar cuatro tareas: traducción de texto, descarga de imágenes, resolución de problemas desde imagen y transcripción de audio.
+A command-line assistant that uses the OpenAI API to perform four tasks: text translation, image downloading, problem-solving from images, and audio transcription.
 
-## Funcionalidades
+## Features
 
-- **Traducir texto** — traduce cualquier texto al idioma que indiques
-- **Descargar imagen desde URL** — descarga y guarda una imagen localmente
-- **Resolver problema desde imagen** — analiza un PNG y resuelve el problema que contiene (visión)
-- **Transcribir audio** — convierte un archivo de audio a texto con Whisper
+- **Text translation** — translates any text into the language you specify
+- **Download image from URL** — downloads and saves an image locally
+- **Solve problem from image** — analyzes a PNG and solves the problem it contains (vision)
+- **Audio transcription** — converts an audio file to text using Whisper
 
-## Requisitos
+## Requirements
 
 - Python 3.8+
-- Cuenta en [OpenAI](https://platform.openai.com) con API key
+- An [OpenAI](https://platform.openai.com) account with an API key
 
-## Instalación
+## Installation
 
 ```bash
 git clone https://github.com/1lauraog15-cloud/asistente-ia.git
@@ -22,16 +22,16 @@ cd asistente-ia
 pip install openai python-dotenv requests
 ```
 
-Crea un archivo `.env` en la raíz del proyecto:
+Create a `.env` file in the project root:
 
 ```
-OPENAI_API_KEY=tu_api_key_aquí
+OPENAI_API_KEY=your_api_key_here
 ```
 
-## Uso
+## Usage
 
 ```bash
 python asistente.py
 ```
 
-Se abrirá un menú interactivo donde puedes elegir la función que quieras.
+An interactive menu will open where you can choose the feature you want to use.
